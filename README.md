@@ -8,6 +8,6 @@ This python file only tests the ENO interpolation and reconstruction itself, not
 **ENO_Burgers.py**
 This python file tests the high-order ENO finite volume scheme on Burgers' equation. Firstly, Euler forward with only a tiny time step is used. The reference solution is computed with a highly refined grid. Error as a function of h is plotted. Secondly, a final time of 0.26 is used to see what happens after shock form. 
 
-How to run this code: hit run, and then every time a figure show up, close the figure will continue the program, there are 3 part of the program that generate 3 different figures. 
+How to run this code: hit run, and then every time a figure show up, close the figure will continue the program, there are 3 parts of the program that generate 3 different figures. 
 
 The other .npy files are for storage of the reference solution computed on a highly refined grid, which might take a lot of time to run.
